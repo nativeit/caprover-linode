@@ -16,15 +16,19 @@ Before deploying your instance, you will need to be sure you have the following:
 
 ---
 
-Deploying a new Linode using this StackScript will take care of most everything you will need in terms of OS, service, and software configurations. The following are included in the StackScript based on recommendations from [Caprover's Documentation](https://caprover.com/docs/get-started.html).
-    - **Clean OS Install**: Caprover requires exclusive access to ports 80 and 443 to deploy apps and obtain SSL certificates. Any other web servers such as Apache will conflict with Caprover's access to these ports. For this reason, it is **highly** recommended that you install Caprover on a fresh system (which of course this StackScript involves the provisioning of a fresh Linode VPS/configuration).
-    - **Docker**: Caprover uses Docker for building and deploying apps and services. Docker CE should be installed using its official instructions. Snap installs have know issues, and should be avoided.
-    - **Firewall**: Be sure the following ports are opened and accessible: `80/tcp, 443/tcp, 996/tcp, 2377/tcp, 3000/tcp, 4789/tcp, 7946/tcp, 2377/udp, 4789/udp, 7946/udp`. This StackScript automatically installs and configures UFW with the necessary ports as well as port 22 for SSH:
-    
+Deploying a new Linode using this StackScript will take care of most everything you will need in terms of OS, service, and software configurations. 
+
+The following are included in the StackScript based on recommendations from [Caprover's Documentation](https://caprover.com/docs/get-started.html).
+
+  - **Clean OS Install**: Caprover requires exclusive access to ports 80 and 443 to deploy apps and obtain SSL certificates. Any other web servers such as Apache will conflict with Caprover's access to these ports. For this reason, it is **highly** recommended that you install Caprover on a fresh system (which of course this StackScript involves the provisioning of a fresh Linode VPS/configuration).
+  - **Docker**: Caprover uses Docker for building and deploying apps and services. Docker CE should be installed using its official instructions. Snap installs have know issues, and should be avoided.
+  - **Firewall**: Be sure the following ports are opened and accessible: `80/tcp, 443/tcp, 996/tcp, 2377/tcp, 3000/tcp, 4789/tcp, 7946/tcp, 2377/udp, 4789/udp, 7946/udp`. This StackScript automatically installs and configures UFW with the necessary ports as well as port 22 for SSH:
+    ```
     ufw allow 22,80,443,3000,996,7946,4789,2377/tcp
     ufw allow 7946,4789,2377/udp
     ufw reload && ufw enable
-
+    ```
+    
 ### Find out more
 ---
 If you want to know more about Caprover, [visit their website](https://caprover.com).
