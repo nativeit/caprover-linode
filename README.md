@@ -2,7 +2,9 @@
 
 # Deploy Caprover on Linode VPS
 
-This is a Linode StackScript for deploying Caprover onto a Debian Linode VPS. Suggested minimum specs can be found in the [Caprover Documentation](https://caprover.com/docs/get-started.html#b2-server-specs). 
+This is a Linode StackScript for deploying Caprover onto a Debian Linode VPS. Suggested minimum specs can be found in the [Caprover Documentation](https://caprover.com/docs/get-started.html#b2-server-specs).
+
+To use this StackScript, either copy/paste `caprover-linode.sh` into your own account's StackScripts (if you want to make customizations), or to use the script as-is, simply deploy your Linode directly from the [community StackScript](https://cloud.linode.com/stackscripts/1017518).
 
 ## Prerequisites
 
