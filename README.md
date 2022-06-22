@@ -41,4 +41,5 @@ Caprover is an open-source PaaS (Platform-as-a-Service) app/database deployment 
 
 This StackScript was created and is maintained by [@nativeit](https://github.com/nativeit). Aside from contributing app templates to Caprover's [One Click Apps](https://github.com/caprover/one-click-apps) repository, I am not affiliated with Caprover or their developers in any way.
 
-![Native IT logo]()
+--
+![Native IT logo](https://github.com/nativeit/caprover-linode/blob/0507a1a9b1d0755cd45d1231e492b23273e68145/assets/native.png)
