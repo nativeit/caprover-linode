@@ -40,3 +40,5 @@ If you want to know more about Caprover, [visit their website](https://caprover.
 Caprover is an open-source PaaS (Platform-as-a-Service) app/database deployment and web server manager, similar to services like Heroku. It was created by [@githubsaturn](https://github.com/githubsaturn) with help from [contributors](https://github.com/caprover/caprover/graphs/contributors).
 
 This StackScript was created and is maintained by [@nativeit](https://github.com/nativeit). Aside from contributing app templates to Caprover's [One Click Apps](https://github.com/caprover/one-click-apps) repository, I am not affiliated with Caprover or their developers in any way.
+
+![Native IT logo]()
