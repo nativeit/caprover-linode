@@ -1,10 +1,8 @@
 # Deploy Caprover on Linode VPS
----
 
 This is a Linode StackScript for deploying Caprover onto a Debian Linode VPS. Suggested minimum specs can be found in the [Caprover Documentation](https://caprover.com/docs/get-started.html#b2-server-specs). 
 
 ## Prerequisites
----
 
 Before deploying your instance, you will need to be sure you have the following:
 
@@ -17,7 +15,6 @@ Before deploying your instance, you will need to be sure you have the following:
     - **Memory**: Caprover requires at least 1GB of RAM for installation, but 4GB or more is recommended for running multiple apps/containers.
 
 ## Features
----
 
 Deploying a new Linode using this StackScript will take care of most everything you will need in terms of OS, service, and software configurations. 
 
@@ -33,11 +30,11 @@ The following are included in the StackScript based on recommendations from [Cap
     ```
     
 ### Further Reading
----
+
 If you want to know more about Caprover, [visit their website](https://caprover.com).
 
 ### Acknowledgements
----
+
 Caprover is an open-source PaaS (Platform-as-a-Service) app/database deployment and web server manager, similar to services like Heroku. It was created by [@githubsaturn](https://github.com/githubsaturn) with help from [contributors](https://github.com/caprover/caprover/graphs/contributors).
 
 This StackScript was created and is maintained by [@nativeit](https://github.com/nativeit). Aside from contributing app templates to Caprover's [One Click Apps](https://github.com/caprover/one-click-apps) repository, I am not affiliated with Caprover or their developers in any way.
