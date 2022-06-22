@@ -1,3 +1,5 @@
+![Header image of Debian logo](https://github.com/nativeit/caprover-linode/blob/0d7c4d09d633df94e140cfe53b00ca874efff18f/assets/debian-ascii.png)
+
 # Deploy Caprover on Linode VPS
 
 This is a Linode StackScript for deploying Caprover onto a Debian Linode VPS. Suggested minimum specs can be found in the [Caprover Documentation](https://caprover.com/docs/get-started.html#b2-server-specs). 
