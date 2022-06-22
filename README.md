@@ -3,6 +3,9 @@
 
 This is a Linode StackScript for deploying Caprover onto a Debian Linode VPS. Suggested minimum specs can be found in the [Caprover Documentation](https://caprover.com/docs/get-started.html#b2-server-specs). 
 
+## Prerequisites
+---
+
 Before deploying your instance, you will need to be sure you have the following:
 
   - **Domain Name**
@@ -13,7 +16,7 @@ Before deploying your instance, you will need to be sure you have the following:
     - **CPU**: 2+ cores is recommended. Caprover and most Docker images can be built and run on most common CPU architectures.
     - **Memory**: Caprover requires at least 1GB of RAM for installation, but 4GB or more is recommended for running multiple apps/containers.
 
-
+## Features
 ---
 
 Deploying a new Linode using this StackScript will take care of most everything you will need in terms of OS, service, and software configurations. 
@@ -29,7 +32,7 @@ The following are included in the StackScript based on recommendations from [Cap
     ufw reload && ufw enable
     ```
     
-### Find out more
+### Further Reading
 ---
 If you want to know more about Caprover, [visit their website](https://caprover.com).
 
